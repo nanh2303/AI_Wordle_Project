@@ -11,7 +11,7 @@ A fully functional, professional recreation of the popular **Wordle** game, buil
 
 | **Main Game Interface** | **Performance Analytics** |
 |:-----------------------:|:-------------------------:|
-| ![Main Game Interface](screenshots/main_game.png) | ![Analytics Dashboard](screenshots/analytics.png) |
+| ![Main Game Interface](mainscreen.png) | ![Analytics Dashboard](assessment.png) |
 > *Note: The interface features a custom "Lemon Mode" light theme for better readability.*
 
 ---
@@ -49,8 +49,8 @@ WordleProject/
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/wordle-ai-project.git](https://github.com/your-username/wordle-ai-project.git)
-    cd wordle-ai-project
+    git clone [https://github.com/nanh2303/AI_Wordle_Project.git](https://github.com/nanh2303/AI_Wordle_Project.git)
+    cd AI_Wordle_Project
     ```
 
 2.  **Install dependencies:**
@@ -86,9 +86,9 @@ WordleProject/
 * **Game Logs:** A side panel records every move, hint, and AI decision for review.
 
 ### For Developers & Researchers
-* **Auto-Solve:** Watch the AI play the game by clicking `▶ Auto`.
+* **Auto-Solve:** Watch the AI play the game by clicking `▶ Auto solve`.
 * **Algorithm Selection:** Choose between 4 distinct search strategies.
-* **Performance Dashboard:** Click `📊 Performance` to run a 10-game simulation in the background.
+* **Performance Dashboard:** Click `📊 Algorithm assessment` to run a 10-game simulation in the background.
     * **Metrics:** Search Time (µs), Memory Usage (Bytes), Expanded Nodes, and Average Guesses.
     * **Visuals:** Matplotlib charts comparing Average vs. Peak performance.
 
